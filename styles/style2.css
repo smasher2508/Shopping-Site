@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700,900');
+*
+{
+}
+body
+{
+	background-color: #f1f3f4;
+	font-family: sans-serif;
+
+}
+.top_nav_bar
+{
+	height: 55px !important;
+	top: 0;
+	position: sticky;
+	background: #fff;
+	margin-bottom: 5px !important;
+	border-bottom: 3px ;
+	border-bottom-style: solid;
+	border-bottom-color: #80002a; 
+	z-index: 2;
+}
+.logo
+{
+	height: 50px;
+	margin: 18px 10px;
+}
+
+.form-control
+{
+	margin-top: 20px !important;
+	margin-left: 30px;
+	border: 1px !important;
+	border-style: solid !important;
+	border-color: #80002a !important;
+	border-top-left-radius: 20px !important;
+	border-bottom-left-radius: 20px !important;
+	border-top-right-radius: 0 !important;
+	border-bottom-right-radius:0 !important;
+	box-shadow: none !important;
+	width: 60% !important; 
+	cursor: pointer !important;
+}
+
+.input-group-text
+{   
+	background: #80002a !important;
+	border: 1px  !important;
+	border-style: solid !important;
+	border-color: #80002a !important;
+	margin: 4.5px 8px 3px 0 !important;
+	border-top-left-radius: 0 !important;
+	border-bottom-left-radius: 0 !important;
+	border-top-right-radius: 20px !important;
+	border-bottom-right-radius: 20px !important;
+	margin-top: 20px !important;
+	margin-bottom: 30px !important;
+	cursor: pointer;
+	margin-right: 80px !important;
+}
+.search-box
+{
+	display:inline-flex;
+	width: 60%;
+
+}
+.fa-search
+{
+	color:white;
+}
+.menu-bar
+{
+	width: 40% ;
+	height: 25px !important;
+	float: right !important;
+	margin-top: 15px;
+	margin-right: 10px;
+}
+.menu-bar ul
+{
+	display: inline-flex;
+	float: right;
+}
+#cam
+{   background-color: #80002a;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	margin-top: 25px;
+	border: 1px solid #fff;
+	text-align: center;
+	cursor: pointer;
+	color: white;
+}
+#l
+{   background-color: #80002a;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	margin-top: 25px;
+	border: 1px solid #fff;
+	text-align: center;
+	cursor: pointer; 
+    color: white;
+}
+#cart a:hover
+{
+	font-weight: bolder;
+}
+#cart
+{   background-color: #80002a;
+	font-size: 12px;
+	text-transform: uppercase;
+	line-height: 40px;
+	width: 150px;
+	margin-top: 25px;
+	border: 1px solid #fff;
+	text-align: center; 
+    color: white;
+
+}
+.fa-shopping-basket
+{
+	margin-left:10px !important;
+	
+}
+.fa-camera
+{
+	margin-left: 10px !important;
+}
+
+@media only screen and (max-width: 980px) 
+{
+	.top-nav-bar
+	{   height: 118px;
+		border-bottom: 0;
+	}
+	.search-box
+	{
+		width: 100%;
+	}
+	.menu-bar
+	{
+       width: 100% ;
+      
+
+	}
+	.menu-bar ul
+	{
+		margin: 80px 0;
+		width: 100% ;
+	}
+    .menu-bar ul li
+    {   height:45px;
+    	width: 100%;
+    }
+}
+.side-menu
+{
+	height: 720px;
+	width: 15%;
+	font-size: 14px;
+	float: left;
+	z-index: 2;
+	background-color: #ddd;
+}
+.side-menu ul
+{
+	margin-left: 20px;
+}
+.side-menu ul li
+{
+	list-style-type: none;
+	font-weight: none;
+	margin-top: 13px;
+	cursor: pointer;
+}
+.side-menu ul li:hover
+{
+	color: #80002a ;
+	font-weight: bolder;
+}
+.side-menu ul li ul
+{
+	display: none;
+	z-index: 10;
+	top: 130px;
+}
+.side-menu ul li:hover ul
+{  
+	display: block;
+    height: 180px;
+    margin-left: 13%;
+    padding: 0 100px 10px 10px;
+    position: fixed;
+    background: #ececec;
+    box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+ 
+}
+.fa-angle-right
+{
+	margin-top: 4px;
+	margin-right: 8px;
+    float: right;
+}
+#menu-btn
+{
+	font-size: 15px;
+	margin: 15px;
+	color: #80002a;
+	display: none;
+	
+}
+#close-btn
+{
+	font-size: 15px;
+	margin: 15px;
+	color: #80002a;
+	display: none;
+	
+}
+
+@media only screen and (max-width: 980px)
+{
+	.side-menu
+	{
+		width: 34%;
+		z-index: 20;
+		top: 133px;
+		position: fixed;
+		font-size: 12px;
+		display: none;
+
+	}
+	.side-menu ul li ul
+	{
+		top: 133px;
+
+	}
+	.side-menu ul li:hover ul
+	{
+		margin-left: 31%;
+
+	}
+	#menu-btn
+	{
+		display: block;
+
+	}
+}
+#myCarousel
+{  
+	width: 85%;
+	margin-left:15%;
+	margin-right: 4px;
+    padding: 0 10px;
+}
+.carousel-inner
+{    margin-top: 5px;
+	 height: 500px;
+}
+.carousel
+{
+	box-shadow: 1px 1px 4px 1px rgba(0,0,0,0.5);
+
+}
+.carousel-indicators
+{
+	z-index: 1 !important;
+}
+@media only screen and (max-width: 980px)
+{
+	#mycarousel
+   {
+   	width: 100%;
+   }
+} 

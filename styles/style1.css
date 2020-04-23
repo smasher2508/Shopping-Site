@@ -1,0 +1,117 @@
+*{
+	padding:0px;
+	margin: 0px;
+}
+.outerclass
+{   background-color: gray;
+	/*background-size: 100%;*/
+	width: 100%;
+	height: 100px;
+}
+.menu
+{   width: 100%;
+	height:100px;
+	background-color:rgba(0,0,0,0.6);
+}
+.leftmenu
+{
+	width: 20%;
+	line-height: 100px;
+	float: left;
+
+}
+.bg_image
+{
+	background-image: url('../NIT_UK_LOGO.jpg');
+	width: 20%;
+	height: 20%;
+}
+.leftmenu h4
+{ padding-left: 70px;
+font-weight: bold;
+color: orange;
+font-size: 22px;
+}
+.rightmenu
+{
+	width: 75%;
+	height: 100px;
+	float: right;
+
+}
+.rightmenu ul
+{
+	margin-left: 150px;
+}
+.rightmenu ul li
+{
+	display: inline-block;
+	list-style: none;
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+.rightmenu ul li:hover
+{
+	color: orange;
+}
+#l
+{
+	color: white;
+}
+#form
+{
+	display: inline-block;
+	list-style: none;
+	font-size: 22px;
+	color: white;
+	font-weight: bold;
+	line-height: 100px;
+	margin-left: 40px;
+	text-transform: uppercase;
+}
+.sidebar
+{
+	width: 200px;
+	height:1200px;
+	background: skyblue;
+	font-size: 22px;
+	float:left;
+     padding-right: 10px;
+	list-style-type: disc;
+	text-decoration: none;
+	font-family: cursive;
+	margin-left: 5px;
+	padding-top: 10px;
+	line-height: 50px;
+}
+.sidebar ul li
+{
+	font-size: 20px;
+	padding-right: 10px;
+	list-style-type: disc;
+	text-decoration: none;
+	font-family: cursive;
+	margin-left: 5px;
+
+}
+.sidebar ul li:hover{color: orange;text-decoration: underline;}
+.sidebar ul
+{
+	font-color:bold;
+	padding-bottom:10px;
+}
+.box {
+  position:absolute;
+  top:40%;
+  left:40%;
+  margin-top:-50px; /* this is half the height of your div*/  
+  margin-left:-100px; /*this is half of width of your div*/
+ background:#32CD32;
+ width: 50%;
+ height: 50vh;
+ align-content: center;
+ border:1px solid black; }
